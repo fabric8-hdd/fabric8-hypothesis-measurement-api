@@ -1,0 +1,31 @@
+{
+  "name": "measurements-api",
+  "version": "1.0.0",
+  "description": "Micro-service for metric measurements and handling of scouts' requests.",
+  "scripts": {
+    "check_lint": "./node_modules/.bin/eslint ./.eslintrc.json",
+    "test": "mocha --timeout 5000 tests/*_test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabric8-hdd/measurements-api.git"
+  },
+  "keywords": [],
+  "author": "Devang Gaur <dgaur@redhat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabric8-hdd/measurements-api/issues"
+  },
+  "homepage": "https://github.com/fabric8-hdd/measurements-api#readme",
+  "dependencies": {
+    "hypothesis-core": "github:fabric8-hdd/hypothesis-core",
+    "validator": "^9.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.16.0",
+    "mocha": "^2.4.5"
+  }
+}
