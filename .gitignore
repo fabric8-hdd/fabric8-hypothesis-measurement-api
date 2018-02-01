@@ -1,3 +1,6 @@
+# Index file shouldn't be here.
+main.js
+
 # Logs
 logs
 *.log
