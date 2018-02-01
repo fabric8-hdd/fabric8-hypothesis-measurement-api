@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/fabric8-hdd/measurements-api#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "hypothesis-core": "github:fabric8-hdd/hypothesis-core",
-    "validator": "^9.2.0"
+    "validator": "^9.4.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
