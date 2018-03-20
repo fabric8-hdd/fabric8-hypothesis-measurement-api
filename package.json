@@ -8,25 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabric8-hdd/fabric8-hypothesis-measurements-api.git"
+    "url": "https://github.com/fabric8-hypothesis/fabric8-hypothesis-measurements-api.git"
   },
   "keywords": [],
   "author": "Devang Gaur <dgaur@redhat.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fabric8-hdd/fabric8-hypothesis-measurements-api/issues"
+    "url": "https://github.com/fabric8-hypothesis/fabric8-hypothesis-measurements-api/issues"
   },
-  "homepage": "https://github.com/fabric8-hdd/fabric8-hypothesis-measurements-api#readme",
+  "homepage": "https://github.com/fabric8-hypothesis/fabric8-hypothesis-measurements-api#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "fabric8-hypothesis-core": "github:fabric8-hdd/fabric8-hypothesis-core",
-    "validator": "^9.4.0"
+    "express": "^4.16.3",
+    "fabric8-hypothesis-core": "github:fabric8-hypothesis/fabric8-hypothesis-core",
+    "validator": "^9.4.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "chai-http": "^3.0.0",
-    "eslint": "^4.17.0",
+    "eslint": "^4.19.0",
     "mocha": "^2.4.5"
   }
 }
